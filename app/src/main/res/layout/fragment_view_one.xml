@@ -1,0 +1,40 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="View.ViewFragmentOne">
+
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        >
+
+        <EditText
+            android:id="@+id/editTextOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="First number"
+            android:numeric="integer"
+            />
+
+        <EditText
+            android:id="@+id/editTextTwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Second number"
+            android:numeric="integer"
+            />
+
+        <Button
+            android:id="@+id/buttonCalculate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:text="Calculate"
+            />
+
+    </LinearLayout>
+</FrameLayout>
